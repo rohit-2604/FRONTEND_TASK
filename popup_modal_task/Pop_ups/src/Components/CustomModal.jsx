@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
 
-Modal.setAppElement('#root'); // Accessibility feature
+Modal.setAppElement('#root');
 
 const CustomModal = React.forwardRef((_, ref) => {
     const [isOpen, setIsOpen] = useState(false);
